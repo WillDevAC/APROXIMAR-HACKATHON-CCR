@@ -7,11 +7,11 @@ abstract class Connection {
 
     public static function getConn() {
         
-        $host = 'mysql669.umbler.com';
+        $host = 'mysql742.umbler.com';
         $port = 41890;
-        $dbname = 'radiocampus';
-        $username = 'radioadmin';
-        $pass = '3llcb233';
+        $dbname = 'domingo';
+        $username = 'domingo';
+        $pass = 'password';
 
         if ( !self::$conn ) {
             self::$conn = new \PDO( "mysql:host=$host:$port;dbname=$dbname", "$username",  "$pass" );
