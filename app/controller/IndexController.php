@@ -55,6 +55,27 @@
 			$conteudo = $template->render($parametros);
 			echo $conteudo;
 		}
+		public function dashboard()
+		{
+
+			$usuario = Adm::selecionaDados();
+
+			$loader = new \Twig\Loader\FilesystemLoader('app/view');
+			$twig = new \Twig\Environment($loader, [
+			    'cache' => 'app/cache',
+			    'auto_reload' => true
+			]);
+			$template = $twig->load('Minha-conta.html');
+			$parametros = array();
+
+			$parametros['user'] = $usuario;
+
+			#URL QUE ESTÁ NAS VIEWS
+			$parametros['url'] = "http://localhost/Aproximar/";
+		
+			$conteudo = $template->render($parametros);
+			echo $conteudo;
+		}
 		//função deslogar do sistema
 		public function logout()
 		{

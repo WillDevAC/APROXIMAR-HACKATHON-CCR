@@ -105,7 +105,7 @@ class __TwigTemplate_6696fde7f51056629901f7746364f05136834def901c8e9a42ab75c5269
             <ul class=\"u-custom-font u-nav u-spacing-30 u-unstyled u-nav-1\"><li class=\"u-nav-item\"><a class=\"u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90\" href=\"";
         // line 54
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
-        echo "\" style=\"padding: 10px 0px;\">Index</a>
+        echo "\" style=\"padding: 10px 0px;\">PAGINA PRINCIPAL</a>
 </li><li class=\"u-nav-item\"><a class=\"u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90\" href=\"";
         // line 55
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
@@ -141,9 +141,6 @@ class __TwigTemplate_6696fde7f51056629901f7746364f05136834def901c8e9a42ab75c5269
           <div class=\"u-layout-row\">
             <div class=\"u-align-left u-container-style u-layout-cell u-left-cell u-size-24 u-layout-cell-1\">
               <div class=\"u-container-layout u-container-layout-1\">
-                <div id=\"audimaWidget\"></div>
-                <script src=\"https://audio.audima.co/audima-widget.js\"></script>
-                <!-- End Audima Widget Injection -->
                 <h2 class=\"u-text u-text-1\">Junte-se a nós!</h2>
                 <div class=\"u-form u-form-1\">
                     <div class=\"u-form-group u-form-name\">
@@ -153,11 +150,11 @@ class __TwigTemplate_6696fde7f51056629901f7746364f05136834def901c8e9a42ab75c5269
                       <input type=\"email\" placeholder=\"Email\" id=\"email\" class=\"u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input\" required=\"\"><br>
                     </div>
                     <div class=\"u-form-email u-form-group u-form-group-3\">
-                      <input type=\"email\" placeholder=\"Senha\" id=\"senha\" class=\"u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input\" required=\"\"><br>
+                      <input type=\"password\" placeholder=\"Senha\" id=\"senha\" class=\"u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input\" required=\"\"><br>
                     </div>
                     <div class=\"u-form-group u-form-group-4\">
                       <label for=\"text-05b9\" class=\"u-form-control-hidden u-label\"></label>
-                      <input type=\"text\" placeholder=\"Confirme sua senha\" id=\"text-05b9\" name=\"password\" class=\"u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input\"><br>
+                      <input type=\"password\" placeholder=\"Confirme sua senha\" id=\"text-05b9\" name=\"password\" class=\"u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-input\"><br>
                     </div>
                     <div class=\"mensagem\" id=\"mensagens\" align=\"center\"></div>
                     <div class=\"u-align-center u-form-group u-form-submit\">

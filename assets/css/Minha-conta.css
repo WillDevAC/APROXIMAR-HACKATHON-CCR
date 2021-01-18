@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: url("images/header.png");
+  background-image: url("http://localhost/Aproximar/assets/images/header.png");
   background-position: 50% 50%;
 }
 
@@ -27,7 +27,7 @@
 .u-section-1 .u-image-1 {
   width: 145px;
   height: 145px;
-  background-image: url("images/pexels-photo-6139560.jpeg");
+  background-image: url("http://localhost/Aproximar/assets/images/pexels-photo-6139560.jpeg");
   background-position: 50% 50%;
   margin: 0 -21px;
 }

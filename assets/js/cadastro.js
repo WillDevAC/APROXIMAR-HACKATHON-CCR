@@ -20,14 +20,17 @@ $(document).ready(function() {
 		  	},
 		  })	
 		  .done(function() {
-		  	$("#mensagens").html("REALIZADO!");
-		  })
-		  .fail(function() {
-		  	$("#mensagens").html("FALHA");
+		  	$("#mensagens").html("<p style='color: pink'>Parabens!!! Agora você faz parte da comunidade aproximar =D<p>");
+		  	$("#nome").val("");
+		  	$("#email").val("");
+		  	$("#senha").val("");
 		  })
 		  .always(function() {
-		  	$("#mensagens").html("COMPLETo");
-		  })
+		  	$("#mensagens").html("<p style='color: pink'>Parabens!!! Agora você faz parte da comunidade aproximar =D<p>");
+		  	$("#nome").val("");
+		  	$("#email").val("");
+		  	$("#senha").val("");
+		  });
 		}
 	})
 })

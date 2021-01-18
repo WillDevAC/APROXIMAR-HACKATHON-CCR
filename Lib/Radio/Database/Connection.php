@@ -9,9 +9,9 @@ abstract class Connection {
         
         $host = 'mysql742.umbler.com';
         $port = 41890;
-        $dbname = 'domingo';
-        $username = 'domingo';
-        $pass = 'password';
+        $dbname = 'aproximar';
+        $username = 'aproximaar';
+        $pass = '3llcb233';
 
         if ( !self::$conn ) {
             self::$conn = new \PDO( "mysql:host=$host:$port;dbname=$dbname", "$username",  "$pass" );

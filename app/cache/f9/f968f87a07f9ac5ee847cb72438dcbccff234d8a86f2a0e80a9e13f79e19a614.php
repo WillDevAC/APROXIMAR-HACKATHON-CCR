@@ -98,7 +98,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
             </a>
           </div>
           <div class=\"u-custom-menu u-nav-container\">
-            <ul class=\"u-custom-font u-nav u-spacing-30 u-unstyled u-nav-1\"><li class=\"u-nav-item\"><a class=\"u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90\" href=\"\" style=\"padding: 10px 0px;\">Index</a>
+            <ul class=\"u-custom-font u-nav u-spacing-30 u-unstyled u-nav-1\"><li class=\"u-nav-item\"><a class=\"u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90\" href=\"\" style=\"padding: 10px 0px;\">PAGINA PRINCIPAL</a>
 </li><li class=\"u-nav-item\"><a class=\"u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90\" href=\"index/sobre\" style=\"padding: 10px 0px;\">Sobre Nós</a>
 </li><li class=\"u-nav-item\"><a class=\"u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90\" href=\"index/cadastro\" style=\"padding: 10px 0px;\">Inscrever-se</a>
 </li><li class=\"u-nav-item\"><a class=\"u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90\" href=\"";
@@ -106,6 +106,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "index/login\" style=\"padding: 10px 0px;\">Login</a>
 </li></ul>
+
           </div>
           <div class=\"u-custom-menu u-nav-container-collapse\">
             <div class=\"u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav\">
@@ -123,7 +124,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
       </div></header> 
     <section class=\"u-clearfix u-section-1\" id=\"sec-950a\">
       <img src=\"";
-        // line 71
+        // line 72
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "assets/images/gr4.png\" alt=\"\" class=\"u-expanded-width u-image u-image-default u-image-1\">
       <div class=\"u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1\">
@@ -133,6 +134,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
               <div class=\"u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-valign-middle-xs\">
                 <div class=\"u-container-style u-group u-white u-group-1\">
                   <div class=\"u-container-layout u-valign-middle u-container-layout-2\">
+
                     <h1 class=\"u-text u-text-palette-1-base u-text-1\">Nossos parceiros</h1>
                     <p class=\"u-text u-text-2\">Os parceiros aproximar são empresas esperando só você para ingressar à equipe!</p><span class=\"u-icon u-icon-circle u-icon-1\"><svg class=\"u-svg-link\" preserveAspectRatio=\"xMidYMin slice\" viewBox=\"0 0 268.832 268.832\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#svg-b8e5\"></use></svg><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" id=\"svg-b8e5\" x=\"0px\" y=\"0px\" viewBox=\"0 0 268.832 268.832\" style=\"enable-background:new 0 0 268.832 268.832;\" xml:space=\"preserve\" class=\"u-svg-content\"><g><path d=\"M265.171,125.577l-80-80c-4.881-4.881-12.797-4.881-17.678,0c-4.882,4.882-4.882,12.796,0,17.678l58.661,58.661H12.5   c-6.903,0-12.5,5.597-12.5,12.5c0,6.902,5.597,12.5,12.5,12.5h213.654l-58.659,58.661c-4.882,4.882-4.882,12.796,0,17.678   c2.44,2.439,5.64,3.661,8.839,3.661s6.398-1.222,8.839-3.661l79.998-80C270.053,138.373,270.053,130.459,265.171,125.577z\"></path>
 </g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg></span>
@@ -173,16 +175,21 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
           </h1>
           <p class=\"u-large-text u-text u-text-body-alt-color u-text-variant u-text-8\">IMPULSIONANDO AS DIVERSIDADES</p>
           <a href=\"http://www.grupoccr.com.br/hackathonccr/\" class=\"u-border-1 u-border-white u-btn u-button-style u-btn-1\" target=\"_blank\">HACKATHON CCR</a>
+          <div class=\"audio\" style=\"height: 20px; width: 60%\">
+            <div id=\"audimaWidget\"></div>
+            <script src=\"https://audio.audima.co/audima-widget.js\"></script>
+            <!-- End Audima Widget Injection -->
+          </div>
         </div>
       </div>
       <img class=\"u-expand-resize u-image u-image-contain u-image-2\" src=\"";
-        // line 121
+        // line 128
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "assets/images/aproximarrre.png\">
     </section>
     <section class=\"u-clearfix u-expand-resize u-white u-section-2\" id=\"carousel_5fad\">
       <img class=\"u-expanded-width u-image u-image-round u-image-1\" src=\"";
-        // line 124
+        // line 131
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "assets/images/57e1d14a4354ae14f6da8c7dda79367d1d38d6ed5b586c48702872d59f4dc351b1_1280.jpg\" data-image-width=\"1280\" data-image-height=\"854\">
       <div class=\"u-clearfix u-sheet u-sheet-1\">
@@ -208,7 +215,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
                           <div class=\"u-align-left u-container-style u-layout-cell u-similar-fill u-size-30 u-layout-cell-2\">
                             <div class=\"u-container-layout u-valign-top u-container-layout-2\">
                               <img class=\"u-expand-resize u-image u-image-2\" src=\"";
-        // line 147
+        // line 154
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "assets/images/022-teamwork.png\">
                             </div>
@@ -216,7 +223,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
                           <div class=\"u-align-left u-container-style u-layout-cell u-right-cell u-similar-fill u-size-30 u-layout-cell-3\">
                             <div class=\"u-container-layout u-valign-top u-container-layout-3\">
                               <img class=\"u-expand-resize u-image u-image-3\" src=\"";
-        // line 152
+        // line 159
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "assets/images/003-speech.png\">
                             </div>
@@ -233,7 +240,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
                           <div class=\"u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-5\">
                             <div class=\"u-container-layout u-valign-bottom u-container-layout-5\">
                               <img class=\"u-expand-resize u-image u-image-4\" src=\"";
-        // line 166
+        // line 173
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "assets/images/018-supporter.png\">
                             </div>
@@ -249,7 +256,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
                   <div class=\"u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-layout-cell-6\">
                     <div class=\"u-container-layout u-valign-middle u-container-layout-6\">
                       <img class=\"u-expand-resize u-image u-image-5\" src=\"";
-        // line 179
+        // line 186
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "assets//images/026-idea.png\">
                     </div>
@@ -308,7 +315,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
             <div class=\"u-container-style u-layout-cell u-palette-1-base u-right-cell u-size-30 u-layout-cell-2\">
               <div class=\"u-container-layout\">
                 <img class=\"u-expand-resize u-image u-image-1\" src=\"";
-        // line 235
+        // line 242
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "assets/images/appong1.png\">
               </div>
@@ -330,7 +337,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
               <div class=\"u-align-left u-container-style u-layout-cell u-right-cell u-size-26 u-layout-cell-2\">
                 <div class=\"u-container-layout u-valign-middle u-container-layout-2\">
                   <a href=\"";
-        // line 254
+        // line 261
         echo twig_escape_filter($this->env, ($context["url"] ?? null), "html", null, true);
         echo "index/cadastro\" data-page-id=\"812521718\" class=\"u-border-1 u-border-black u-btn u-button-style u-btn-1\" title=\"learn more\">INSCREVER-SE</a>
                 </div>
@@ -364,7 +371,7 @@ class __TwigTemplate_1923779653c1d0190f2f9979907984a3d4968827a2a45eb5f2ac72ec4d9
 
     public function getDebugInfo()
     {
-        return array (  334 => 254,  312 => 235,  253 => 179,  237 => 166,  220 => 152,  212 => 147,  186 => 124,  180 => 121,  127 => 71,  106 => 53,  64 => 14,  60 => 13,  56 => 12,  52 => 11,  48 => 10,  37 => 1,);
+        return array (  341 => 261,  319 => 242,  260 => 186,  244 => 173,  227 => 159,  219 => 154,  193 => 131,  187 => 128,  128 => 72,  106 => 53,  64 => 14,  60 => 13,  56 => 12,  52 => 11,  48 => 10,  37 => 1,);
     }
 
     public function getSourceContext()
