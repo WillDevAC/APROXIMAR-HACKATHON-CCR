@@ -15,7 +15,7 @@
 		    	$parametros = array();
 
 		    	#URL QUE ESTÁ NAS VIEWS
-		    	$parametros['url'] = "http://localhost/Aproximar/";
+		    	$parametros['url'] = "http://radiocampusapi.com.br/";
 
 		    	
 		    	$conteudo = $template->render($parametros);
@@ -33,7 +33,7 @@
 			$parametros = array();
 
 			#URL QUE ESTÁ NAS VIEWS
-			$parametros['url'] = "http://localhost/Aproximar/";
+			$parametros['url'] = "http://radiocampusapi.com.br/";
 		
 			$conteudo = $template->render($parametros);
 			echo $conteudo;
@@ -50,7 +50,7 @@
 			$parametros = array();
 
 			#URL QUE ESTÁ NAS VIEWS
-			$parametros['url'] = "http://localhost/Aproximar/";
+			$parametros['url'] = "http://radiocampusapi.com.br/";
 		
 			$conteudo = $template->render($parametros);
 			echo $conteudo;
@@ -71,7 +71,7 @@
 			$parametros['user'] = $usuario;
 
 			#URL QUE ESTÁ NAS VIEWS
-			$parametros['url'] = "http://localhost/Aproximar/";
+			$parametros['url'] = "http://radiocampusapi.com.br/";
 		
 			$conteudo = $template->render($parametros);
 			echo $conteudo;
@@ -81,7 +81,7 @@
 		{
 		    unset($_SESSION['usr']);
 		    session_destroy();
-		    header('Location: http://localhost/Aproximar/login');
+		    header('Location: http://radiocampusapi.com.br/');
 		}
 	}
  ?>
