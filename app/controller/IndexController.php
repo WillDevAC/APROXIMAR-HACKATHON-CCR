@@ -76,6 +76,23 @@
 			$conteudo = $template->render($parametros);
 			echo $conteudo;
 		}
+		public function profile()
+		{
+
+			$loader = new \Twig\Loader\FilesystemLoader('app/view');
+			$twig = new \Twig\Environment($loader, [
+			    'cache' => 'app/cache',
+			    'auto_reload' => true
+			]);
+			$template = $twig->load('Perfil-publico.html');
+			$parametros = array();
+
+			#URL QUE ESTÁ NAS VIEWS
+			$parametros['url'] = "http://radiocampusapi.com.br/";
+		
+			$conteudo = $template->render();
+			echo $conteudo;
+		}
 		//função deslogar do sistema
 		public function logout()
 		{
